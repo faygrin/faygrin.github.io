@@ -9,6 +9,10 @@ body {
 	font-size:12px;
 }
 
+.nobr {
+	white-space: nowrap;
+}
+
 #info {
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
@@ -53,7 +57,7 @@ body {
 		margin-top: 1.5em;
 	}
 
-	#info .showImg img {
+	#info .showImg .scaled {
 		-webkit-transition: all 1s ease;
 		-moz-transition: all 1s ease;
 		-o-transition: all 1s ease;
@@ -196,7 +200,7 @@ body {
 		width: 768px; 
 	}
 
-	#info .showImg img {
+	#info .showImg .scaled {
 		max-width: 730px;
 	}
 }
@@ -217,7 +221,7 @@ body {
 		display:none;
 	}
 
-	#info .showImg img {
+	#info .showImg .scaled {
 		max-width: 455px;
 	}
 	
