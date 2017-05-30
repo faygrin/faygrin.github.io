@@ -13,6 +13,10 @@ body {
 	white-space: nowrap;
 }
 
+strong {
+	font-family: Arial;
+}
+
 #info {
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
